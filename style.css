@@ -1,0 +1,12 @@
+html
+{
+    /* color: white;
+    background-color: rgb(44, 44, 44); */
+    /* display: flex;
+    justify-content: center; */
+}
+
+table, td, th 
+{
+    border: 1px solid black;
+}
