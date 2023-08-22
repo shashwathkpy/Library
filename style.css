@@ -4,9 +4,34 @@ html
     background-color: rgb(44, 44, 44); */
     /* display: flex;
     justify-content: center; */
+    background-image: url('/images/Bookswall_generated.jpg');
+    color: aliceblue;
 }
 
-table, td, th 
+body
+{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+table
+{
+    background-color: brown;
+}
+
+table, th, td
 {
     border: 1px solid black;
+}
+
+img {
+    mix-blend-mode: multiply;
+}
+
+button
+{
+    border-radius: 10px;
+    background-color: blanchedalmond;
 }
